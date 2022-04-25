@@ -103,7 +103,8 @@ form select,
 form input {
   margin-bottom: 20px;
   width: 65%;
-  float: right;
+  flex-direction: row;
+  
 }
 
 form button {
@@ -129,12 +130,13 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 480px) {
   header {
     background-color: #ff385c;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
   }
 
   header nav {
